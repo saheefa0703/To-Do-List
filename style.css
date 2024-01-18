@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7a0909;
+  }
+  
+  .app-container {
+    background-color: #a05858;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .tasks-container {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #661515;
+    padding: 8px 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #220404;
+  }
+  
+  .add-task-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }  
